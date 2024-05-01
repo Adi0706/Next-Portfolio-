@@ -8,10 +8,12 @@ import Linkedin from '../Media//Media/linkedin.png';
 import Coffee from '../Media/Media/coffee.png';
 import { Meteors } from './ui/meteors';
 
+
 function NavBar() {
   
   return (
     <>
+     
    
       <nav className='m-0 bg-black' >
         <ul className='flex items-center justify-between p-2'>
@@ -27,7 +29,7 @@ function NavBar() {
               <ul className='flex items-center justify-start p-2 gap-5 font-bold text-white'>
                 <li>Home</li>
                 <li>Projects</li>
-                <li>Services</li>
+               <li>Services</li>
                 <li>Contact</li>
                 <li>
                   <div className=''>|</div>
