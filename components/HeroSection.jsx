@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import AboutImage from '../Media/Media/aboutimage.png';
+import AboutImage from '../public/Media/aboutimage.png';
 import {Meteors} from '../components/ui/meteors';
 import { Spotlight } from './ui/Spotlight';
 

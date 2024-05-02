@@ -28,8 +28,9 @@ function NavBar() {
             <div className='socials'>
               <ul className='flex items-center justify-start p-2 gap-5 font-bold text-white'>
                 <li>Home</li>
+                <li>Services</li>
                 <li>Projects</li>
-               <li>Services</li>
+                <li>Testimonials</li>
                 <li>Contact</li>
                 <li>
                   <div className=''>|</div>
