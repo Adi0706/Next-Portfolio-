@@ -2,11 +2,11 @@
 
 import React from 'react';
 import Image from 'next/image'; 
-import Github from '../Media/Media/github.png';
-import Twitter from '../Media/Media/x.png';
-import Linkedin from '../Media//Media/linkedin.png';
-import Coffee from '../Media/Media/coffee.png';
-import { Meteors } from './ui/meteors';
+import Github from '../public/Media/github.png';
+import Twitter from '../public/Media/x.png';
+import Linkedin from '../public/Media/linkedin.png';
+import Coffee from '../public/Media/coffee.png';
+
 
 
 function NavBar() {

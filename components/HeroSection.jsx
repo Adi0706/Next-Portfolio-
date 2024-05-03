@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import AboutImage from '../public/Media/aboutimage.png';
-import {Meteors} from '../components/ui/meteors';
 import { Spotlight } from './ui/Spotlight';
 
 function HeroSection() {
@@ -17,7 +16,7 @@ function HeroSection() {
         <p className='font-bold text-4xl mb-4 text-red-600'>Hello,</p>
         <p className='text-6xl font-semibold mb-2'>I'm Aditya Bhattacharjee</p>
         <p className='text-lg text-gray-600 leading-tight mb-4'>
-          Software Developer | Freelancer
+          Software Developer 
         </p>
         <div className="text-lg text-gray-600  leading-relaxed mb-7">
           <p>
