@@ -9,7 +9,7 @@ function HeroSection() {
   return (
     <>
     
-    <div className='hero-section w-full h-auto  flex items-center justify-evenly p-6 bg-black' >
+    <div className='hero-section w-screen h-auto  flex items-center justify-evenly p-6 bg-black' >
     
     <Spotlight></Spotlight>
       <div className='hero-section-1 max-w-lg flex flex-col gap-2 text-white'>

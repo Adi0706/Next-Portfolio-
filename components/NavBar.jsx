@@ -15,7 +15,7 @@ function NavBar() {
     <>
      
    
-      <nav className='m-0 bg-black' >
+      <nav className='m-0 bg-black w-screen' >
         <ul className='flex items-center justify-between p-2'>
           <li>
             <span className='text-3xl p-2 text-white'>
@@ -30,7 +30,6 @@ function NavBar() {
                 <li>Home</li>
                 <li>Services</li>
                 <li>Projects</li>
-                <li>Testimonials</li>
                 <li>Contact</li>
                 <li>
                   <div className=''>|</div>
