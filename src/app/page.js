@@ -3,6 +3,7 @@ import HeroSection from "../../components/HeroSection";
 import ServiceSection from "../../components/ServiceSection";
 import ProjectSection from "../../components/ProjectSection";
 import ContactForm from '../../components/Contact' ; 
+import Footer from '../../components/Footer' ; 
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <ServiceSection/>
       <ProjectSection/>
       <ContactForm/>
-     
+      <Footer/>
     </main>
   );
 }
