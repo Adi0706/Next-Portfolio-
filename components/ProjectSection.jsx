@@ -4,6 +4,7 @@ import React from 'react';
 import ProjectSectionData from '../data/ProjectSection';
 import Image from 'next/image';
 import { DirectionAwareHover } from '../components/ui/direction-aware-hover';
+import Proj from '../public/Media/proj.png' ; 
 
 function ProjectSection() {
   return (
@@ -14,7 +15,7 @@ function ProjectSection() {
           {ProjectSectionData.map((project, index) => (
             <div key={index} className="Project-Item">
               <a href={project.href} target="_blank" rel="noopener noreferrer"> 
-                <DirectionAwareHover imageUrl={project.image}>
+                <DirectionAwareHover imageUrl={Proj}>
                   <div className="Project-Content">
                     <h2 className="text-white text-xl font-bold">{project.title}</h2>
                     <p className="text-white">{project.description}</p>

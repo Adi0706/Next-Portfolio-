@@ -59,10 +59,10 @@ function NavBar() {
                 </li>
                 <li>
                   <div className=' social-icons flex gap-5 '>
-                    <FaGithub className='w-5 h-5' />
-                    <FaLinkedin className='w-5 h-5' />
-                    <FaXTwitter className='w-5 h-5' />
-                    <SiBuymeacoffee className='w-5 h-5' />
+                  <a href='https://github.com/Adi0706' target='_blank'><FaGithub className='w-5 h-5' /></a>  
+                   <a href='https://www.linkedin.com/in/aditya-bhattacharjee-288462215/' target='_blank'><FaLinkedin className='w-5 h-5' /></a> 
+                    <a href='https://twitter.com/Acejumanji' target='_blank'><FaXTwitter className='w-5 h-5' /></a>
+                    <a href='https://buymeacoffee.com/adityabhatk' target='_blank'><SiBuymeacoffee className='w-5 h-5' /></a>
                   </div>
                 </li>
               </ul>
