@@ -15,7 +15,7 @@ function ClientSection() {
                 
                   <div className="Client-Content  flex flex-col items-center justify-start">
                     <Image src={client.image} className='w-96 h-96'></Image>
-                    <h2 className="text-white text-xl md:text-2xl font-bold">{client.client_name}</h2>
+                    <h2 className="text-white text-xl md:text-2xl font-bold -mt-16">{client.client_name}</h2>
                     
                   </div>
               

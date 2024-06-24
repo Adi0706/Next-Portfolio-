@@ -41,7 +41,7 @@ function Contact() {
       </div>
       
       <div className='Contact-Form text-white w-full md:w-1/2 lg:w-1/3 xl:w-1/4 flex flex-col items-center'>
-        <p className='text-3xl md:text-5xl font-bold mb-6 text-white'>Contact Us</p>
+        <p className='text-3xl md:text-5xl font-bold mb-6 text-white'>Contact Me</p>
         <form className='form flex flex-col items-center w-full' onSubmit={(e) => handleFormSubmit(e)}>
           <div className='flex flex-col p-2 w-full'>
             <input type="text" id="name" className='input-field text-black p-3 rounded-xl' name='name' placeholder="Enter your name" />
