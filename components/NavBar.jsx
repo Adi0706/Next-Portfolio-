@@ -30,11 +30,15 @@ function NavBar() {
               <li className='cursor-pointer' onClick={() => scrollToSection('projects')}>
                 Projects
               </li>
+              <li className='cursor-pointer' onClick={() => scrollToSection('client')}>
+              Clients
+              </li>
               <li className='cursor-pointer' onClick={() => scrollToSection('contact')}>
                 Contact
               </li>
       
               <li className='flex items-center gap-7'>
+                |
                 <a href='https://github.com/Adi0706' target='_blank' rel='noopener noreferrer' className='text-white'>
                   <FaGithub className='w-5 h-5' />
                 </a>

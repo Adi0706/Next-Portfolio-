@@ -28,11 +28,11 @@ function Contact() {
           <FaLocationDot className='w-7 h-7 mr-2'/>
           India
         </span> 
-        <span className='text-white flex text-sm md:text-2xl mx-2'>
+        <span className='text-white flex text-sm md:text-2xl mx-1'>
           <CiMail className='w-7 h-7 mr-1'/>
           aditya.bhattacharjee706@gmail.com
         </span>
-        <div className='flex items-center gap-5 my-5 mx-5 md:mr-8'>
+        <div className='flex items-center gap-5 my-5 mx-1 md:mr-8'>
           <a href='https://github.com/Adi0706' target='_blank' rel='noopener noreferrer'><FaGithub className='w-7 h-7' /></a>  
           <a href='https://www.linkedin.com/in/aditya-bhattacharjee-288462215/' target='_blank' rel='noopener noreferrer'><FaLinkedin className='w-7 h-7' /></a> 
           <a href='https://twitter.com/Acejumanji' target='_blank' rel='noopener noreferrer'><FaTwitter className='w-7 h-7' /></a>
